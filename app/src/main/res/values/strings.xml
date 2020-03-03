@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CheerUp</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_list_display">ListDisplay</string>
+    <string name="title_activity_single">SingleActivity</string>
+    <string name="title_activity_contact_us">ContactUs</string>
+    <string name="title_activity_title_display">TitleDisplay</string>
+    <string name="title_activity_write_notes">WriteNotes</string>
+    <string name="title_activity_post_display">PostDisplay</string>
+    <string name="title_activity_login_screen">LoginScreen</string>
+    <string name="title_activity_notes_list_display">NotesListDisplay</string>
+    <string name="title_activity_note_view">NoteView</string>
+    <string name="title_activity_notes_view">NotesView</string>
+    <string name="title_activity_test">TestActivity</string>
+</resources>

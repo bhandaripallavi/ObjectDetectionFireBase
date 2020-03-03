@@ -1,0 +1,79 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<LinearLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height = "match_parent"
+    android:paddingLeft= "20dp"
+    android:paddingRight = "20dp"
+    android:paddingTop = "20dp"
+    android:paddingBottom = "20dp"
+    android:background="@drawable/mt"
+    tools:context = ".WriteNotes">
+
+    <TextView
+        android:id="@+id/tvnotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notes!"
+        android:textSize="35dp" />
+
+    <EditText
+        android:id="@+id/ed_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:hint="Title"
+        android:textAlignment="center"
+        android:textColorHint="#000000" />
+
+
+    <TextView
+        android:id="@+id/date_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="8sp"
+        android:hint="Date"
+        android:textAlignment="center"
+        android:textColorHint="#000000"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/ed_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textAlignment="center"
+        android:textColorHint="#000000"
+        android:hint="Content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_save1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="0.5"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="0.5"
+            android:text="Cancel" />
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/wb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
