@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "470969894620",
+    "project_id": "demood-e8565",
+    "storage_bucket": "demood-e8565.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470969894620:android:3aaf53f748b5e9a53e5619",
+        "android_client_info": {
+          "package_name": "com.example.demood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470969894620-hasbqok5mtrnnim9cfrbis80775o1c0v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqh7MoUnXZK7iGVdlaqL9ve1HTD1pFErI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470969894620-hasbqok5mtrnnim9cfrbis80775o1c0v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
